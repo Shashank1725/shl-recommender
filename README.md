@@ -23,8 +23,8 @@ shl-recommender/
 pip install -r requirements.txt
 ```
 
-### Step 2: Gemini API key lo (FREE)
-1. https://aistudio.google.com/app/apikey pe jao
+### Step 2: Groq API key lo (FREE)
+1. https://console.groq.com/keys
 2. "Create API Key" click karo
 3. Copy karo
 
