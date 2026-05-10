@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 # .env file mein apni key dalo:
-# GEMINI_API_KEY=your_key_here
+# _API_KEY=your_key_here
 ```
 
 ### Step 4: Catalog scrape karo
@@ -49,7 +49,7 @@ python vector_store.py
 
 ### Step 6: Server chalao
 ```bash
-export GEMINI_API_KEY=your_key_here   # ya .env use karo
+export API_KEY=your_key_here   # ya .env use karo
 uvicorn main:app --reload --port 8000
 ```
 
@@ -82,7 +82,7 @@ curl -X POST http://localhost:8000/chat \
 1. GitHub pe push karo (catalog.json aur faiss_index/ bhi include karo)
 2. render.com pe jao → "New Web Service"
 3. GitHub repo connect karo
-4. Environment variable mein `GEMINI_API_KEY` dalo
+4. Environment variable mein `API_KEY` dalo
 5. Deploy!
 
 ## Response Schema
